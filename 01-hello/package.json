@@ -1,0 +1,28 @@
+{
+	"name": "@thi.ng/ws-hsa-2022",
+	"version": "0.0.1",
+	"description": "TODO",
+	"repository": "https://github.com/thi-ng/ws-hsa-2022",
+	"author": "Karsten Schmidt <k+npm@thi.ng>",
+	"license": "MIT",
+	"scripts": {
+		"start": "vite --open",
+		"build": "tsc && vite build --base='./'",
+		"preview": "vite preview --host --open"
+	},
+	"devDependencies": {
+		"typescript": "^4.8.4",
+		"vite": "^3.2.2"
+	},
+	"dependencies": {
+		"@thi.ng/color": "^5.2.9",
+		"@thi.ng/geom": "^3.4.20",
+		"@thi.ng/random": "^3.3.14",
+		"@thi.ng/rdom": "^0.9.18",
+		"@thi.ng/transducers": "^8.3.22",
+		"@thi.ng/vectors": "^7.5.23"
+	},
+	"browser": {
+		"process": false
+	}
+}
