@@ -16,6 +16,8 @@
 	},
 	"dependencies": {
 		"@thi.ng/color": "^5.2.9",
+		"@thi.ng/date": "^2.3.14",
+		"@thi.ng/dl-asset": "^2.3.16",
 		"@thi.ng/math": "^5.3.12",
 		"@thi.ng/pixel": "^4.0.7",
 		"@thi.ng/random": "^3.3.14",
